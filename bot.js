@@ -2,6 +2,9 @@
 
 require("dotenv").config();
 
+// Sertifika doğrulamasını devre dışı bırak (geçici çözüm, yalnızca geliştirme ortamında kullanın)
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+
 const { client } = require("./client");
 require("moment-duration-format");
 require("./slash")(client);
