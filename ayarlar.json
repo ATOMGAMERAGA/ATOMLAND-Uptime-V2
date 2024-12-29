@@ -1,0 +1,13 @@
+{
+    "prefix": "a!",
+    "botId": "1235805356324818955",
+    "botName": "ATOMLAND Uptime",
+    "ownerIds": [1051072781284016198],
+    "normalLimit": 2,
+    "premiumLimit": 5,
+    "uptimeLogChannel": "1289105655843651636",
+    "premiumLogChannel": "1289105655843651636",
+    "blacklistLogChannel": "1289105655843651636",
+    "noWarn": false
+  }
+  

@@ -1,0 +1,12 @@
+{
+  "prefix": "",
+  "botId": "",
+  "botName": "",
+  "ownerIds": [],
+  "normalLimit": 3,
+  "premiumLimit": 10,
+  "uptimeLogChannel": "",
+  "premiumLogChannel": "",
+  "blacklistLogChannel": "",
+  "noWarn": false
+}
