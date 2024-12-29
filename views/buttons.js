@@ -20,7 +20,7 @@ const ListeButon = new ButtonBuilder()
   .setStyle(ButtonStyle.Secondary)
   .setCustomId("listebuton");
 const DestekButon = new ButtonBuilder()
-  .setURL(`https://discord.gg/XjBRvvaUzM`)
+  .setURL(`https://dc.atomland.xyz`)
   .setLabel("Destek sunucusu")
   .setStyle(ButtonStyle.Link);
 const OyButon = new ButtonBuilder()

@@ -73,7 +73,12 @@ module.exports = new Event({
           return interaction.reply({ embeds: [LinkVar], ephemeral: true });
         if (!linkInput.startsWith("https://"))
           return interaction.reply({ embeds: [BaşıHatalı], ephemeral: true });
-        if (!linkInput.endsWith(".glitch.me"))
+        if (
+          !(
+            linkInput.endsWith(".glitch.me") ||
+            linkInput.endsWith(".onrender.com")
+          )
+        )
           return interaction.reply({ embeds: [SonuHatalı], ephemeral: true });
 
         db.push(`UptimeLink_${user.id}`, linkInput);

@@ -8,7 +8,7 @@ const { botName } = require("../functions/config").getConfig();
 module.exports = new Event({
   name: "ready",
   async execute(client) {
-    console.log(`Bot Aktif`);
+    console.log(`Bot Aktif - ATOMLAND Uptime`);
     presence(client);
     uptime();
   },
