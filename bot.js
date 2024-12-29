@@ -17,6 +17,20 @@ if (!token) {
   process.exit(1); // Programı hatayla sonlandır
 }
 
+/*                         KEEPALIVE (REPLIT)                              */
+
+// Express modülü ile bir HTTP sunucusu ekliyoruz
+const express = require("express");
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("ATOMLAND Uptime Yaşıyor!");
+});
+
+app.listen(8000, () => {
+  console.log("[+] KeepAlive sunucusu çalışıyor.");
+});
+
 // Hata işleyicileri
 process
   .on("uncaughtException", (error) => {
