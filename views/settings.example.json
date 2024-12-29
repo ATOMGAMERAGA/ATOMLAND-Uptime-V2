@@ -1,12 +1,13 @@
 {
-  "prefix": "",
-  "botId": "",
-  "botName": "",
-  "ownerIds": [],
-  "normalLimit": 3,
-  "premiumLimit": 10,
-  "uptimeLogChannel": "",
-  "premiumLogChannel": "",
-  "blacklistLogChannel": "",
+  "prefix": "a!",
+  "token": "MTIzNTgwNTM1NjMyNDgxODk1NQ.GgajDN.zGVk1qSOk_SdTHGG0P4Ryr80kQEYhob48CY79Q",
+  "botId": "1235805356324818955",
+  "botName": "ATOMLAND Uptime",
+  "ownerIds": [1051072781284016198],
+  "normalLimit": 2,
+  "premiumLimit": 5,
+  "uptimeLogChannel": "1289105655843651636",
+  "premiumLogChannel": "1289105655843651636",
+  "blacklistLogChannel": "1289105655843651636",
   "noWarn": false
 }
